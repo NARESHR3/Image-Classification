@@ -120,7 +120,6 @@ def train_model(model, train_loader, num_epochs=3):
 <img width="412" height="404" alt="image" src="https://github.com/user-attachments/assets/367c0cfe-c20b-47c7-b2d0-3e639f231a2e" />
 
 
-![Screenshot 2025-04-05 093605](https://github.com/user-attachments/assets/78f838e6-94ef-48fe-b45b-63c64b73dd77)
 
 
 ## RESULT
