@@ -45,10 +45,10 @@ Save the trained model, visualize predictions, and integrate it into an applicat
 ## PROGRAM
 
 ```
-class CNNClassifier(nn.Module):
-    class CNNClassifier(nn.Module):
+
+    class Naresh(nn.Module):
     def __init__(self):
-        super(CNNClassifier, self).__init__()
+        super(Naresh, self).__init__()
 
         self.conv1 = nn.Conv2d(1, 16, kernel_size=3, padding=1)
         self.conv2 = nn.Conv2d(16, 32, kernel_size=3, padding=1)
@@ -73,16 +73,16 @@ class CNNClassifier(nn.Module):
 
 ```
 # Initialize model, loss function, and optimizer
-model = CNNClassifier()
+NARESH = Naresh()
 criterion = nn.CrossEntropyLoss()
-optimizer = optim.Adam(model.parameters(), lr=0.001)
+optimizer = optim.Adam(NARESH.parameters(), lr=0.001)
 ```
 
 ```
 
 # Train the Model
 
-def train_model(model, train_loader, num_epochs=3):
+def train_model(NARESH, train_loader, num_epochs=3):
 
     # write your code here
     for epoch in range(num_epochs):
@@ -90,7 +90,7 @@ def train_model(model, train_loader, num_epochs=3):
       running_loss = 0.0
       for images, labels in train_loader:
         optimizer.zero_grad()
-        outputs = model(images)
+        outputs = NARESH(images)
         loss = criterion(outputs, labels)
         loss.backward()
         optimizer.step()
