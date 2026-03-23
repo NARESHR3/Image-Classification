@@ -124,4 +124,4 @@ def train_model(NARESH, train_loader, num_epochs=3):
 
 
 ## RESULT
-Thus, We have developed a convolutional deep neural network for image classification to verify the response for new images.
+Thus, a Convolutional Deep Neural Network for image classification was successfully developed and tested using the FashionMNIST dataset, and the model accurately predicted the classes of new images.
