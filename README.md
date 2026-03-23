@@ -124,4 +124,4 @@ def train_model(NARESH, train_loader, num_epochs=3):
 
 
 ## RESULT
-Thus, a Convolutional Deep Neural Network for image classification was successfully developed and tested using the FashionMNIST dataset, and the model accurately predicted the classes of new images.
+The Convolutional Neural Network (CNN) was successfully implemented for image classification. The model was trained on the dataset, and its performance was evaluated using accuracy metrics, confusion matrix, and classification report. Predictions on new sample images were verified, confirming the model's effectiveness in classifying images.
